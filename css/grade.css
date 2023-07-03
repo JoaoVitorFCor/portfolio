@@ -1,16 +1,13 @@
-.grade-subtitle h3{
-  font-size: 1.75rem;
-  margin-left: 20px;
-  position: relative;
+.grade-info h4{
+  font-size: 1.25rem;
+  margin-bottom: 10px;
 }
 
-.grade-subtitle::after{
-  content: "";
-  display: block;
-  height: 4px;
-  width: 60px;
-  margin-left: 20px;
-  background: #FFBB00;
-  margin-top: 4px;
-  position: absolute;
-  }
+.graduation, .courses{
+  margin-bottom: 50px;
+}
+
+.grade-info p{
+  margin-bottom: 10px;
+  font-size: 1.15rem;
+}
