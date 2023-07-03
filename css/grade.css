@@ -1,4 +1,4 @@
-.about-container{
+.grade-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 200px;
@@ -6,13 +6,13 @@
   justify-items: left;
 }
 
-.about-subtitle h3{
+.grade-subtitle h3{
   font-size: 1.75rem;
   margin-left: 20px;
   position: relative;
 }
 
-  .about-subtitle::after{
+.grade-subtitle::after{
   content: "";
   display: block;
   height: 4px;
@@ -21,14 +21,4 @@
   background: #FFBB00;
   margin-top: 4px;
   position: absolute;
-  }
-
-  .about-info{
-    max-width: 500px;
-    justify-self: left;
-  }
-
-  .about-info p{
-    font-size: 1.15rem;
-    line-height: 1.6;
   }
