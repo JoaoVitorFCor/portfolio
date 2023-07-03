@@ -1,18 +1,10 @@
-.about-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 200px;
-  gap: 50px;
-  justify-items: left;
-}
-
 .about-subtitle h3{
   font-size: 1.75rem;
   margin-left: 20px;
   position: relative;
 }
 
-  .about-subtitle::after{
+.about-subtitle::after{
   content: "";
   display: block;
   height: 4px;
@@ -23,12 +15,12 @@
   position: absolute;
   }
 
-  .about-info{
+.about-info{
     max-width: 500px;
     justify-self: left;
   }
 
-  .about-info p{
+.about-info p{
     font-size: 1.15rem;
     line-height: 1.6;
   }

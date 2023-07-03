@@ -26,3 +26,11 @@ img{
   margin: 0 auto;
   padding: 0px 100px;
 }
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 200px;
+  gap: 50px;
+  justify-items: left;
+}
