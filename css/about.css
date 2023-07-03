@@ -1,0 +1,32 @@
+.about-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 150px;
+  gap: 50px;
+  justify-items: center;
+}
+
+.about-subtitle h3{
+  font-size: 1.75rem;
+  position: relative;
+}
+
+  .about-subtitle::after{
+  content: "";
+  display: block;
+  height: 4px;
+  width: 60px;
+  background: #FFBB00;
+  margin-top: 4px;
+  position: absolute;
+  }
+
+  .about-info{
+    max-width: 500px;
+    justify-self: left;
+  }
+
+  .about-info p{
+    font-size: 1.15rem;
+    line-height: 1.6;
+  }
